@@ -1,0 +1,24 @@
+{
+  "name": "hint.css",
+  "version": "0.0.1",
+  "description": "Exposable bits of UI clarification",
+  "main": "hint.css",
+  "keywords": [
+    "css",
+    "hint",
+    "tip",
+    "ui"
+  ],
+  "authors": [
+    "Michael Chan"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/chantastic/popover.css",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
