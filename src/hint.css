@@ -1,0 +1,18 @@
+/*! hint.css v0.0.1 | MIT License | https://github.com/chantastic/hint.css */
+
+[data-hint-id] {
+  cursor: pointer;
+
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+[data-hint] {
+  visibility: hidden;
+}
+
+[data-hint~="open"] {
+  visibility: visible;
+}
