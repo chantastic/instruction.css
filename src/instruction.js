@@ -1,18 +1,18 @@
-/*! hint.css v0.0.1 | MIT License | https://github.com/chantastic/hint.css */
+/*! instruction.css v0.0.1 | MIT License | https://github.com/chantastic/instruction.css */
 
 // this is a sample implementation
-function toggledHintState(node) {
-  return (node.dataset.hint) ? "" : "open";
+function toggledInstructionState(node) {
+  return (node.dataset.instruction) ? "" : "open";
 }
 
-function toggleHintWithId(e) {
+function toggleInstructionWithId(e) {
   "use strict";
   var id, node;
 
-  if ((id = e.target.dataset.hintId)) {
+  if ((id = e.target.dataset.instructionId)) {
     node = document.getElementById(id);
-    node.dataset.hint = toggledHintState(node);
+    node.dataset.instruction = toggledInstructionState(node);
   }
 }
 
-document.addEventListener('click', toggleHintWithId);
+document.addEventListener('click', toggleInstructionWithId);
