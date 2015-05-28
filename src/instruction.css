@@ -11,8 +11,18 @@
 
 [data-instruction] {
   visibility: hidden;
+
+  transition: all .12s ease-in-out;
 }
 
 [data-instruction~="open"] {
   visibility: visible;
+}
+
+[data-instruction][data-instruction-options~="transition-opacity"] {
+  opacity: 0;
+}
+
+[data-instruction~="open"][data-instruction-options~="transition-opacity"] {
+  opacity: 1;
 }
