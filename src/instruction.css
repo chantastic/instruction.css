@@ -1,6 +1,6 @@
-/*! hint.css v0.0.1 | MIT License | https://github.com/chantastic/hint.css */
+/*! instruction.css v0.0.1 | MIT License | https://github.com/chantastic/instruction.css */
 
-[data-hint-id] {
+[data-instruction-id] {
   cursor: pointer;
 
   -webkit-user-select: none;
@@ -9,10 +9,10 @@
           user-select: none;
 }
 
-[data-hint] {
+[data-instruction] {
   visibility: hidden;
 }
 
-[data-hint~="open"] {
+[data-instruction~="open"] {
   visibility: visible;
 }

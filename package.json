@@ -1,8 +1,8 @@
 {
-  "name": "hint.css",
+  "name": "instruction.css",
   "version": "0.0.1",
   "description": "Exposable bits of UI clarification",
-  "main": "hint.js",
+  "main": "instruction.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "css",
-    "hint",
+    "instruction",
     "tip",
     "ui"
   ],

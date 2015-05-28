@@ -1,11 +1,11 @@
 {
-  "name": "hint.css",
+  "name": "instruction.css",
   "version": "0.0.1",
   "description": "Exposable bits of UI clarification",
-  "main": "hint.css",
+  "main": "instruction.css",
   "keywords": [
     "css",
-    "hint",
+    "instruction",
     "tip",
     "ui"
   ],
