@@ -1,0 +1,25 @@
+{
+  "name": "hint.css",
+  "version": "0.0.1",
+  "description": "Exposable bits of UI clarification",
+  "main": "hint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chantastic/popover.css"
+  },
+  "keywords": [
+    "css",
+    "hint",
+    "tip",
+    "ui"
+  ],
+  "author": "Michael Chan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chantastic/popover.css/issues"
+  },
+  "homepage": "https://github.com/chantastic/popover.css"
+}
