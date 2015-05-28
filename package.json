@@ -1,6 +1,6 @@
 {
   "name": "instruction.css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Exposable bits of UI clarification",
   "main": "instruction.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chantastic/popover.css"
+    "url": "https://github.com/chantastic/instruction.css"
   },
   "keywords": [
     "css",
@@ -19,7 +19,7 @@
   "author": "Michael Chan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chantastic/popover.css/issues"
+    "url": "https://github.com/chantastic/instruction.css/issues"
   },
-  "homepage": "https://github.com/chantastic/popover.css"
+  "homepage": "https://github.com/chantastic/instruction.css"
 }

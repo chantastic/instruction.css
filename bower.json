@@ -1,6 +1,6 @@
 {
   "name": "instruction.css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Exposable bits of UI clarification",
   "main": "instruction.css",
   "keywords": [
@@ -13,7 +13,7 @@
     "Michael Chan"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/chantastic/popover.css",
+  "homepage": "https://github.com/chantastic/instruction.css",
   "ignore": [
     "**/.*",
     "node_modules",
