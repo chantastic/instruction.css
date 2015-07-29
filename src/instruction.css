@@ -1,28 +1,17 @@
-/*! instruction.css v0.0.1 | MIT License | https://github.com/chantastic/instruction.css */
+/*! instruction.css v0.0.4 | MIT License | https://github.com/chantastic/instruction.css */
 
-[data-instruction-id] {
-  cursor: pointer;
-
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
+/*
+ * well shit. I had inteded to build this all in CSS
+ * but I don't believe in behavioral-CSS anymore.
+ */
 
 [data-instruction] {
-  visibility: hidden;
-
-  transition: all .12s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
 }
 
-[data-instruction~="open"] {
-  visibility: visible;
-}
-
-[data-instruction][data-instruction-options~="transition-opacity"] {
-  opacity: 0;
-}
-
-[data-instruction~="open"][data-instruction-options~="transition-opacity"] {
-  opacity: 1;
+/* sample instruction box */
+[data-instruction] > * {
+    padding: 20px;
 }

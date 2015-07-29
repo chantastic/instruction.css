@@ -1,18 +1,27 @@
-/*! instruction.css v0.0.1 | MIT License | https://github.com/chantastic/instruction.css */
+/*! instruction.css v0.0.4 | MIT License | https://github.com/chantastic/instruction.css */
+
+/* eslint-env browser */
+/* global console */
 
 // this is a sample implementation
-function toggledInstructionState(node) {
-  return (node.dataset.instruction) ? "" : "open";
-}
-
-function toggleInstructionWithId(e) {
+(function () {
   "use strict";
-  var id, node;
 
-  if ((id = e.target.dataset.instructionId)) {
-    node = document.getElementById(id);
-    node.dataset.instruction = toggledInstructionState(node);
+  function toggleInstructionWithId(e) {
+    var id, instructionNode;
+
+    id = e.target.dataset.instructionId;
+
+    if (!id) { return; }
+
+    instructionNode = document.getElementById(id);
+
+    if (!instructionNode.style.maxHeight) {
+      instructionNode.style.maxHeight = instructionNode.scrollHeight + "px";
+    } else {
+      instructionNode.style.maxHeight = "";
+    }
   }
-}
 
-document.addEventListener('click', toggleInstructionWithId);
+  document.addEventListener("click", toggleInstructionWithId);
+}());

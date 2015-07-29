@@ -1,6 +1,6 @@
 {
   "name": "instruction.css",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Exposable bits of UI clarification",
   "main": "instruction.js",
   "scripts": {
