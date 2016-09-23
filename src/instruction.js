@@ -10,16 +10,18 @@
   function toggleInstructionWithId(e) {
     var id, instructionNode;
 
+    if (!e && !e.target && !e.target.dataset) { return; }
+
     id = e.target.dataset.instructionId;
 
     if (!id) { return; }
 
     instructionNode = document.getElementById(id);
 
-    if (!instructionNode.style.maxHeight) {
-      instructionNode.style.maxHeight = instructionNode.scrollHeight + "px";
+    if (!instructionNode.style.height) {
+      instructionNode.style.height = instructionNode.scrollHeight + "px";
     } else {
-      instructionNode.style.maxHeight = "";
+      instructionNode.style.height = "0px";
     }
   }
 

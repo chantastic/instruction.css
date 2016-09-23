@@ -5,13 +5,19 @@
  * but I don't believe in behavioral-CSS anymore.
  */
 
-[data-instruction] {
-    max-height: 0;
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
-}
+/* [data-instruction] { */
+/*     max-height: 0; */
+/*     overflow: hidden; */
+/*     transition: all 0.3s ease-in-out; */
+/* } */
 
-/* sample instruction box */
-[data-instruction] > * {
-    padding: 20px;
+/* /\* sample instruction box *\/ */
+/* [data-instruction] > * { */
+/*     padding: 20px; */
+/* } */
+
+[data-instruction] {
+  height: 0;
+  overflow:hidden;
+  transition: all 0.3s ease-in-out;
 }
